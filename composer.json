@@ -1,0 +1,26 @@
+{
+    "name": "mario7dujmovic/github-issuer",
+    "description": "GitHub Issuer is a simple package to create a new issue on your GitHub repository via API.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mario7dujmovic\\GithubIssuer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mario7dujmovic\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mario Dujmovic",
+            "email": "mario7dujmovic@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "7.9.2",
+        "phpunit/phpunit": "10.5.36"
+    }
+}
