@@ -20,8 +20,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "guzzlehttp/guzzle": "7.9.2",
-        "phpunit/phpunit": "10.5.36"
+        "guzzlehttp/guzzle": "~7.0",
+        "phpunit/phpunit": "~10.0"
     },
     "scripts": {
         "test": "vendor/bin/phpunit tests"
